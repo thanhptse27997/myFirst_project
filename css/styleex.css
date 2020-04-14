@@ -1287,7 +1287,7 @@ a {
 
 
 }
-@media (min-width: 410px ) and (max-width : 450px) {
+@media (min-width: 410px ) and (max-width : 550px) {
     body{
         background-color: rgba(128, 128, 128, 0.219);
         border: 0px solid black;
