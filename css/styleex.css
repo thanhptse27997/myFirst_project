@@ -1,0 +1,1162 @@
+/* Chu khong duoi */
+/* mobile */
+body {
+    font-family: utmavo;
+    max-width: 1000px;
+    margin: auto;
+    font-size: 15px;
+    border: solid 1px black;
+}
+@font-face {
+    font-family: utmavo;
+    src: url(../fonts/UTMAvo.ttf);
+}
+
+@font-face {
+    font-family: utmavo-bold;
+    src: url(../fonts/UTMAvoBold.ttf);
+}
+
+.center {
+    text-align: center;
+}
+
+.large {
+    font-size: 48px;
+}
+
+.main-title {
+    font-family: utmavo-bold;
+    text-align: center;
+    font-size: 48px;
+    text-transform: uppercase;
+}
+#main-title2{
+    font-family: utmavo-bold;
+    text-align: center;
+    font-size: 35px;
+    text-transform: uppercase;
+}
+#alwayls{
+    font-family: utmavo-bold;
+}
+a:link {
+    color: black;
+}
+
+a:visited {
+    color: grey;
+}
+
+a:hover {
+    color: red;
+}
+
+a:active {
+    color: chartreuse;
+}
+
+.black-btn {
+    background-color: black;
+    color: white;
+    padding: 15px 45px;
+}
+
+.black-btn:hover {
+    background-color: grey;
+}
+
+.cart p {
+    display: none;
+}
+
+.cart:hover p {
+    display: block;
+}
+
+.indam{
+    font-family: utmavo-bold;
+    text-transform: uppercase;
+    color: black;
+}
+.giao-hang p{
+    line-height: 1px;
+}
+ul {
+    list-style: none;
+}
+.check-list li::before {
+    content: url(../img/check.png);
+}
+
+::-moz-selection {
+    /* Code for Firefox */
+    color: white;
+    background: black;
+}
+::selection {
+    color: white;
+    background: black;
+}
+
+.test-css {
+    color: red;
+}
+
+.he-thong {
+    background-color: #eab7bc;
+}
+.hethong1{
+    color: black;
+    font-weight: normal;
+    line-height: 1;
+    margin-top: 30px;
+}
+.hethong1 h6{
+    font-size: 15px;
+    font-family: utmavo-bold;
+}
+.hethong2{
+    color: black;
+    font-size: 12px;
+    line-height: 2px;
+}
+.hethong2a{
+    font-family: utmavo-bold;
+}
+.banner{
+    background: url(../img/group-1.png);
+    background-size: cover;
+    position: relative;
+}
+.banner2{
+    background: url(../img/dam-banner.png);
+    background-size: cover;
+    position: relative;
+}
+.banner3{
+    background: url(../img/honganstyle.jpg);
+    background-size: cover;
+    position: relative;
+}
+.main-banner-content {
+    width: 100%;
+}
+.main-banner-content1{
+    background: rgba(255, 255, 0, 0.418);
+    color: black;
+}
+.main-banner-content2{
+    width: 100%;
+}
+.main-banner-content a{
+    background: white;
+    padding: 15px;
+}
+.note {
+    align-self: flex-end;
+    width: 100%;
+}
+.banner-container {
+    width: 50%;
+    display: flex;
+    height: 620px;
+    align-items: center;
+    flex-wrap: wrap;
+    text-align: center;
+}
+.element1{
+    text-align: center;
+    text-transform: uppercase;
+    font-family: utmavo-bold;
+    letter-spacing: 3px;
+    padding-top: 45px;
+}
+.thoitrang{
+    text-align: center;
+    display: grid;
+    grid-template-columns: auto auto auto;
+    padding: 10px;
+}
+.thoitranga img{
+    padding-top: 60px;
+}
+.thoitranga1{
+    padding-top: 90px;
+    line-height: 5px;
+}
+.thoitranga11{
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+.thoitranga22{
+    font-family: utmavo-bold;
+    font-size: 25px;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+}
+.thoitranga2{
+    padding-top: 20px;
+}
+.giangsinh{
+    background: url(../img/mg-1540-5540.jpg);
+    width: 305px;
+    display: grid;
+    align-content: flex-end;
+}
+.giangsinh div{
+    background-color: rgba(255, 255, 255, 0.678);
+    text-align: center;
+    padding: 15px;
+}
+.giangsinh1 p{
+    line-height: 12px;
+}
+.giangsinh2 p{
+    line-height: 12px;
+}
+.dreamcatcher{
+    padding-top: 100px;
+}
+.dream1{
+    line-height: 10px;
+}
+.pink {
+    color: #e9b8bb;
+}
+
+a {
+    text-decoration: none;
+}
+
+.old-price {
+    text-decoration: line-through;
+}
+
+.thoi-gian {
+    letter-spacing: 3px;
+    text-transform: uppercase;
+}
+
+.float-right {
+    float: right;
+}
+
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+.float-left {
+    float: left;
+}
+
+.email-input {
+    border-style: none none solid none;
+    border-width: 1px;
+}
+
+.kich-co {
+    border: 2px solid black;
+    background: white;
+}
+
+.top-nav a {
+    margin: 5px 10px ;
+    color: black;
+}
+
+.center-container {
+    height: 550px;
+    padding-top: 50px;
+}
+.khach-hang-moi {
+    background-image: url(../img/img-9187-copy-3552.jpg);
+    background-size: cover;
+    position: relative;
+}
+.khachangmoia{
+    position: absolute;
+    padding: 20px 30px;
+}
+.khach-hang-moi1{
+    background-color: white;
+    border: 1px solid black;
+}
+#pricevoucher{
+    font-family: utmavo-bold;
+    text-transform: uppercase;
+    font-size: 25px;
+}
+.newcustomer{
+    font-family: utmavo-bold;
+    text-transform: uppercase;
+}
+.support-info {
+    display: grid;
+    grid-template-columns: 33.33% 33.33% 33.33%;
+    text-align: center;
+    padding-top: 100px;
+}
+.support{
+    background-color: rgba(128, 128, 128, 0.103);
+}
+.support p{
+    font-family: utmavo-bold;
+    padding-top: 35px;
+    text-transform: uppercase;
+}
+.column1{
+    font-size: 14px;
+    padding: 30px;
+}
+.support a:visited{
+    color: black;
+}
+.support a:hover{
+    color: yellow;
+}
+* {
+    box-sizing: border-box;
+}
+.phong-cach-column {
+    height: 230px;
+    padding: 30px;
+    float: left;
+}
+
+.column-1 {
+    padding: 7px;
+    float: left;
+    width: 50%;
+}
+
+.trang-phuc-hoa-tiet {
+    background: url(../img/img-1194-copy-131.png);
+    background-size: cover;
+    width: 100%;
+    line-height: 7px;
+}
+
+.column-2 {
+    padding: 7px;
+    float: left;
+    width: 20%;
+}
+.co-nang-nu-tinh {
+    background: url(../img/img-9170-copy-4768.png);
+    background-size: cover;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    line-height: 3px;
+}
+.column-3 {
+    padding: 7px;
+    float: left;
+    width: 30%;
+}
+.phong-cach-khoe-khoan {
+    background: url(../img/img-8240-copy-copy-2111.png);
+    background-size: cover;
+    width: 100%;
+    display: flex;
+    align-items: flex-end;
+    line-height: 7px;
+    color: white;
+}
+.fontsizenormal{
+    font-weight: bold;
+    font-size: 15px;
+}
+.fontsizeimportant{
+    font-family: utmavo-bold;
+    font-size: 25px;
+}
+.flex-container {
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    padding: 15px;
+}
+.infostar{
+    padding-top: 15px;
+    display: grid;
+    grid-template-columns: 25% 25% 25% 25%;
+    font-size: 10px;
+    padding-left: 15px;
+}
+.inlinecontent{
+    display: grid;
+    grid-template-columns: 15% 75%;
+}
+.flexdesign{
+    font-size: 15px;
+    padding: 7px;
+}
+.product {
+    width: 100%;
+    padding: 15px;
+}
+.product img{
+    width: 100%;
+    -webkit-transition: 0.75s;
+    /* For Safari 3.1 to 6.0 */
+    transition: 0.75s;
+}
+.product:hover img {
+    -ms-transform: scale(1.1);
+    /* IE 9 */
+    -webkit-transform: scale(1.1);
+    /* Safari prior 9.0 */
+    transform: scale(1.1);
+    /* Standard syntax */
+}
+.add-to-cart {
+    position: absolute;
+    bottom: 15px;
+    left: 50%;
+    transform: translate(-50%);
+    background: white;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 20px;
+    font-size: 16px;
+    display: none;
+}
+
+.product:hover .add-to-cart {
+    display: block;
+    -webkit-animation-name: example;
+    /* Safari 4.0 - 8.0 */
+    -webkit-animation-duration: 1s;
+    /* Safari 4.0 - 8.0 */
+    animation-name: example;
+    animation-duration: 1s;
+}
+.frame{
+    position: relative;
+    overflow: hidden;
+}
+
+.top-nav {
+    display: flex;
+    justify-content: flex-end;
+    position: relative;
+    top:0;
+    width:100%;
+}
+
+.co-nang-nu-tinh p {
+    color: white;
+}
+
+.product-detail {
+    display: grid;
+    grid-template-columns: 30% 40% 30%;
+    height: 600px;
+}
+.product-detail-cola{
+    padding-left: 29px;
+    padding-right: 26px;
+}
+.text1 {
+    text-align: center;
+}
+.text1 div p {
+    text-transform: uppercase;
+    font-size: 20px;
+    text-align: center;
+    font-weight: bold;
+}
+.text2 {
+    text-align: left;
+    font-size: 13px;
+    line-height:18px;
+    letter-spacing: -0.05px;
+    padding-top: 24px;
+    padding-bottom:18px;
+}
+.text3 {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    margin-top:6px;
+    margin-bottom:6px;
+    font-size: 11px;
+}
+.text3 button {
+    background-color:#eab7bc;
+    color:white;
+    border-style: none;
+    padding: 5px 11px;
+}
+.text4 {
+    font-size: 12px;
+    padding-top: 22px;
+}
+.product-detail-colb{
+    padding: 35px;
+    position: relative;
+}
+.colb{
+    position: absolute;
+    bottom: 5%;
+}
+.product-detail-colc{
+    height: 450px;
+}
+.product-detail-sub{
+    display: flex;
+    position: relative;
+}
+.sub-info {
+    display: flex;
+    align-content: space-between;
+    flex-wrap: wrap;
+}
+.mausac-kichco {
+    width: 100%;
+}
+.size{
+    width: 30px;
+    height: 30px;
+}
+.color1{
+    border: solid 1px black;
+    background: black;
+}
+.color2{
+    border: solid 1px black;
+    background: pink;
+}
+.buttonsize{
+    border: solid 3px black;
+    width: 35px;
+    height: 30px;
+}
+.buttonhover{
+    margin-top: 15px;
+    line-height: 1px;
+}
+.buttonhover button:hover{
+    background: black;
+    color: white;
+}
+.khoangcachdenhin{
+    padding-top: 30px;
+}
+.infohang{
+    font-size: 12px;
+}
+.buttonorder{
+    width: 200px;
+    height: 60px;
+    font-size: 18px;
+    background: #00a99d;
+    color: white;
+}
+.buttonorder p {
+    padding: 10px;
+}
+.orderhang button:hover{
+    background: black;
+    color: yellow;
+}
+.thacmac {
+    width: 100%;
+    font-size: 12px;
+    position: relative;
+    height: 220px;
+}
+.thacmac ul{
+    position: absolute;
+    padding-left: 0;
+    bottom: 0;
+}
+.thacmac p{
+    line-height: 1px;
+}
+.bohemian {
+    background: url(../img/img-0513-copy-931.png);
+    background-size: cover;
+    height: 100%;
+    display: grid;
+    align-content: center;
+    color: white;
+    line-height: 7px;
+    padding: 14px;
+}
+.toi-gian {
+    background: url(../img/mg-0359-8040.png);
+    background-size: cover;
+    height: 100%;
+    display: grid;
+    align-content: flex-end;
+    color: white;
+    line-height: 7px;
+    padding-bottom: 14px;
+    padding-left: 60px;
+}
+.cong-so {
+    background: url(../img/img-9477-copy-6272.png);
+    background-size: cover;
+    height: 100%;
+    display: grid;
+    align-content: center;
+    color: white;
+    line-height: 7px;
+    padding-left: 200px;
+}
+.phong-cach-row-2 {
+    display: flex;
+    height: 230px;
+}
+.phong-cach-col-1 {
+    flex-grow: 0.5;
+    padding: 7px;
+}
+.phong-cach-col-2 {
+    flex-grow: 1;
+    padding: 7px;
+}
+.phong-cach-col-3 {
+    flex-grow: 7;
+    padding: 7px;
+}
+.navex{
+    position: relative;
+    margin-top: 20px;
+    background: black;
+    display: flex;
+    justify-content: space-between;
+    z-index: 1;
+    height: 75px;
+    font-weight: bold;
+}
+.navex a:link{
+    color: white;
+}
+.navex a:visited{
+    color: white;
+}
+.navex a:hover{
+    color: yellow;
+}
+.navex  li{
+    padding: 10px 20px;
+    position: relative;
+    text-transform: uppercase;
+}
+.navex > ul{
+    display: flex;
+    text-transform: uppercase;
+ }
+ .navex li ul {
+     position: absolute;
+     background: black;
+     padding: 0;
+     width: 200px;
+     border: 1px solid grey;
+     display: none;
+ }
+ .navex li:hover>ul{
+     display: block;
+ }
+ .submenu{
+     left: 100%;
+     top: 0;
+ }
+ .honganpos{
+     font-size: 30px;
+     margin: 10px 23px;
+     font-family: utmavo-bold;
+ }
+ .navex1{
+    margin: 12px 23px;
+}
+ .infocompany{
+     background: black;
+     padding: 25px;
+ }
+ .infocompany p{
+     color: white;
+ }
+ .infocompany li{
+     color: white;
+ }
+ .infocompany1{
+     display: grid;
+     grid-template-columns: auto auto auto auto;
+     border-bottom: 1px solid grey;
+ }
+ .infocompany1 p{
+     font-family: utmavo-bold;
+     text-transform: uppercase;
+ }
+ .banquyen{
+     text-align: center;
+ }
+ .poster{
+     background-image: url(../img/ad.png);
+     background-size: cover;
+     height: 260px;
+     width: 175px;
+     position: relative;
+ }
+ .desforposter{
+     font-size: 20px;
+     position: absolute;
+     left: 0;
+     bottom: 0;
+     padding: 15px;
+ }
+ .des1{
+    border-bottom: 1px solid black;
+    font-family: utmavo-bold;
+    text-transform: uppercase;
+    line-height: 5px;
+ }
+ .des2{
+    font-family: utmavo-bold;
+    text-transform: uppercase;
+    line-height: 5px;
+    padding-top: 25px;
+ }
+ .midex2{
+     display: flex;
+     justify-content: space-between;
+     position: relative;
+ }
+ .midex2 a{
+     font-weight: bold;
+     color: black;
+ }
+.vitri1{
+    display: none;
+    padding: 15px;
+    font-size: 15px;
+}
+.discout10{
+    background-color: pink;
+    padding: 5px;
+}
+.discout10 >p{
+    color: white;
+}
+.vitri2{
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+}
+.noidung1{
+    display: grid;
+    grid-template-columns: auto auto;
+    font-size: 10px;
+}
+.noidung1a{
+    padding: 30px;
+}
+.noidunga{
+    font-size: 14px;
+    font-family: utmavo-bold;
+    text-transform: uppercase;
+}
+.quantrong{
+    font-family: utmavo-bold;
+}
+.quantrong1{
+    font-weight: bold;
+}
+.quantrong2{
+    font-weight: bold;
+}
+#quantrong3{
+    font-family: utmavo-bold;
+}
+.chuinhoa{
+    text-transform: uppercase;
+}
+.kickco1{
+    margin-top: 40px;
+    line-height: 1px;
+}
+.noidung2{
+    display: grid;
+    grid-template-columns: auto auto;
+    font-size: 10px;
+    padding-top: 20px;
+}
+.noidung2a{
+    padding: 30px;
+}
+.noidung2aa{
+    font-family: utmavo-bold;
+    font-size: 14px;
+}
+.desforhangorder1{
+    font-size: 15px;
+    width: 700px;
+}
+.hangorder1a{
+    display: flex;
+    justify-content: space-between;
+}
+.order1a{
+    font-family: utmavo-bold;
+    text-transform: uppercase;
+}
+.order1b{
+    font-family: utmavo-bold;
+    text-transform: uppercase;
+}
+.hangorder1b{
+    display: flex;
+    justify-content: space-between;
+}
+.order1aa{
+    width: 500px;
+}
+.order1bb{
+    width: 500px;
+}
+.thongtindathang{
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    height: 400px;
+}
+.thongtindathang button{
+    font-weight: bold;
+    text-transform: uppercase;
+    font-size: 12px;
+}
+.thongtindathang >ul{
+    position: relative;
+    display: flex;
+}
+.thongtindathang ul li{
+    position: relative;
+}
+.thongtindathang li ul{
+    position: absolute;
+    display: none;
+    padding: 0;
+}
+.thongtindathang li:hover>ul{
+    display: block;
+}
+.thongtindathang li{
+    padding: 10px 5px;
+}
+.mbyl{
+    text-align: center;
+    font-family: utmavo-bold;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    padding-top: 50px;
+}
+.maybeyoulike{
+    display: flex;
+    justify-content: space-between;
+    padding: 5px 15px;
+}
+.productmaybeyoulike img{
+    -webkit-transition: 0.75s;
+    /* For Safari 3.1 to 6.0 */
+    transition: 0.75s;
+}
+.productmaybeyoulike:hover img{
+    -ms-transform: scale(1.1);
+    /* IE 9 */
+    -webkit-transform: scale(1.1);
+    /* Safari prior 9.0 */
+    transform: scale(1.1);
+    /* Standard syntax */
+}
+.productmaybeyoulike :hover .add-to-cart{
+    display: block;
+    -webkit-animation-name: example;
+    /* Safari 4.0 - 8.0 */
+    -webkit-animation-duration: 1s;
+    /* Safari 4.0 - 8.0 */
+    animation-name: example;
+    animation-duration: 1s;
+}
+.youlike{
+    font-size: 17px;
+}
+.infogiohang{
+    display: grid;
+    grid-template-columns: auto auto auto auto ;
+    font-size: 15px;
+    position: relative;
+    height: 50px;
+ }
+ .infoa{
+     position: absolute;
+     margin-left: 360px;
+     font-family: utmavo-bold;
+     color: rgba(128, 128, 128, 0.349);
+     text-transform: uppercase;
+     font-size: 14px;
+ }
+ .infob{
+     position: absolute;
+     margin-left: 460px;
+     font-family: utmavo-bold;
+     color: rgba(128, 128, 128, 0.349);
+     text-transform: uppercase;
+     font-size: 14px;
+ }
+ .infoc{
+     position: absolute;
+     margin-left: 570px;
+     font-family: utmavo-bold;
+     color: rgba(128, 128, 128, 0.349);
+     text-transform: uppercase;
+     font-size: 14px;
+ }
+ .infodd{
+     position: absolute;
+     margin-left: 720px;
+     font-family: utmavo-bold;
+     color: rgba(128, 128, 128, 0.349);
+     text-transform: uppercase;
+     font-size: 14px;
+ }
+
+.giohang{
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    width: 950px;
+    height: 400px
+}
+.giohanga{
+    display: flex;
+    flex-direction: column;
+}
+.giohangb{
+    width: 500px;
+}
+
+.giohangcolumn{
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    width: 300px;
+    height: 100px;
+}
+.hinhanhcolumn{
+    position: relative;
+}
+.textgiohang{
+    right: 0;
+    top: 0;
+    position: absolute;
+    font-size: 13px;
+}
+.style1{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 40px;
+}
+.style2{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 40px;
+}
+.style3{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 40px;
+}
+.style4{
+    display: flex;
+    justify-content: space-between;
+}
+.style5{
+    display: flex;
+    justify-content: space-between;
+}
+.buttoncancel{
+    margin-top: 13px;
+    width: 30px;
+    height: 30px;
+}
+.moreorder{
+    font-size: 12px;
+    display: grid;
+    grid-template-columns: auto auto auto auto auto;
+    padding: 0px 30px 75px;
+}
+.buttonmoreorder{
+    padding-top: 33px;
+}
+.cashforsecrect{
+    padding-top: 33px;
+}
+.freeishere{
+    font-weight: bold;
+    font-size: 12px;
+}
+.sizebutton{
+    width: 200px;
+    height: 50px;
+    font-family: utmavo-bold;
+    text-transform: uppercase;
+}
+.colora{
+    background: rgba(128, 128, 128, 0.466);
+    color: black;
+}
+.colorb{
+    background: #00a99d;
+    color: white;
+}
+.sizediscouta{
+    width: 130px;
+    height: 40px;
+}
+.sizediscoutb{
+    width: 90px;
+    height: 35px;
+    background: black;
+    color: white;
+    padding: 6px 12px;
+}
+.giohang1{
+    text-align: center;
+    font-family: utmavo-bold;
+    font-size: 17px;
+}
+.table{
+    position: relative;
+    height: 500px;
+}
+.table1{
+    display: grid;
+    grid-template-columns: auto auto auto auto auto auto;
+    font-size: 12px;
+    border: solid 1px rgba(128, 128, 128, 0.26);
+    padding: 10px;
+}
+.table1a{
+    display: flex;
+    align-items: center;
+}
+.infotable1aa{
+    margin-left: 20px;
+    font-weight: bold;
+    line-height: 0px;
+}
+   
+.vitrichunga{
+    padding-top: 30px;
+    font-weight: bold;
+}
+.vitrichungb{
+    padding-top: 30px;
+}
+
+.controls-right {
+    background:white;
+    padding: 15px 40px;
+    color: black;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    z-index: 5;
+}
+.controls-left {
+    background:white;
+    padding: 15px 40px;
+    color: black;
+    position: absolute;
+    bottom: 0;
+    right: 80px;
+    z-index: 5;
+}
+.khongbietnua{
+    padding: 15px 25px;
+    font-weight: bold;
+    letter-spacing: 1px;
+}
+.weareone{
+    font-family: utmavo-bold;
+    text-transform: uppercase;
+}
+.weareone1{
+    text-transform: uppercase;
+    font-weight: bold;
+}
+.tensp{
+    font-weight: bold;
+}
+.vitritensp{
+    padding-top: 30px;
+    line-height: 5px;
+}
+.vitritensp1{
+    padding-top: 30px;
+    line-height: 5px;
+    text-align: center;
+    text-transform: uppercase;
+}
+.damhovai{
+    padding-top: 25px;
+    font-family: utmavo-bold;
+}
+.thoigiangiaohang{
+    font-size: 10px;
+    padding-top: 10px;
+}
+.khongbietnua2{
+    font-family: utmavo-bold;
+    color: rgba(128, 128, 128, 0.493);
+    text-transform: uppercase;
+    font-size: 12px;
+}
+#khongbietnua3{
+    display: grid;
+    grid-template-columns: 58% 42%;
+    font-size: 14px;
+}
+.khongbietnua4{
+    text-align: center;
+    font-family: utmavo-bold;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    padding-top: 20px;
+}
+.khongbietnua5{
+    padding-top: 50px;
+}
+/* Tablet */
+@media screen and (min-width: 600px) {
+    .product {
+        width: 50%;
+    }
+    .vitri1{
+        display: block;
+    }
+}
+/* Desktop */
+@media screen and (min-width: 768px) {
+    .product {
+        width: 33.33%;
+    }
+    .vitri1 {
+        display: block;
+    }
+}
+.bangthongtinne{
+    padding: 15px;
+}
+.bangthongtinne li{
+    letter-spacing: 2px;
+    padding: 5px 30px;
+}
