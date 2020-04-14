@@ -1138,7 +1138,7 @@ a {
 /* Tablet */
 @media (max-width: 450px) {
     body{
-        background: darkslategrey;
+        background-color: darkslategrey;
     }
     .top-nav{
         font-size: 12px;
