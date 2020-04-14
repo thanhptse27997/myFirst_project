@@ -1136,9 +1136,9 @@ a {
     padding-top: 50px;
 }
 /* Tablet */
-@media screen and (max-width: 450px) {
+@media (max-width: 450px) {
     .body{
-        background-color: darkslategrey;
+        background: darkslategrey;
     }
     .top-nav{
         font-size: 12px;
