@@ -1139,8 +1139,9 @@ a {
 @media (max-width: 450px) {
     body{
         background-color: darkslategrey;
-        border: none;
+        border: 0px solid black;
         max-width: 450px;
+        margin: auto;
     }
     .top-nav{
         font-size: 12px;
