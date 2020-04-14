@@ -1135,10 +1135,10 @@ a {
     padding-top: 50px;
 }
 /* Tablet */
-@media screen and (max-width: 400px) {
+@media (max-width: 400px) {
     body{
         background-color: rgba(255, 0, 0, 0.103);
-        border: 1px solid black;
+        border: 0px solid black;
         margin: auto;
     }
     .top-nav{
@@ -1281,7 +1281,7 @@ a {
 
 
 }
-@media screen and (min-width: 410px) {
+@media (min-width: 410px) {
     body{
         background-color: rgba(128, 128, 128, 0.219);
         border: 0px solid black;
