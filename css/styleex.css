@@ -1135,11 +1135,10 @@ a {
     padding-top: 50px;
 }
 /* Tablet */
-@media (max-width: 450px) {
+@media screen and (max-width: 450px) {
     body{
         background-color: darkslategrey;
         border: 0px solid black;
-        max-width: 100%;
         margin: auto;
     }
     .top-nav{
