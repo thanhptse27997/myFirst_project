@@ -1135,7 +1135,7 @@ a {
     padding-top: 50px;
 }
 /* Tablet */
-@media (max-width: 400px) {
+@media (max-width: 390px) {
     body{
         background-color: rgba(255, 0, 0, 0.103);
         border: 0px solid black;
@@ -1221,6 +1221,9 @@ a {
      .phong-cach-khoe-khoan{
          line-height: 25px;
      }
+     .co-nang-nu-tinh{
+         line-height: 30px;
+     }
      .column-1{
          float: none;
          width: 100%;
@@ -1278,10 +1281,13 @@ a {
      .infocompany div{
          padding-top: 5px;
      }
+     .khachangmoia{
+         padding : 25px 30px;
+     }
 
 
 }
-@media (min-width: 410px) {
+@media screen and (min-width: 410px ) and (max-width : 450px) {
     body{
         background-color: rgba(128, 128, 128, 0.219);
         border: 0px solid black;
