@@ -1287,7 +1287,7 @@ a {
 
 
 }
-@media (max-width : 450px) {
+@media (max-width : 430px) {
     body{
         background-color: rgba(128, 128, 128, 0.219);
         border: 0px solid black;
@@ -1432,6 +1432,9 @@ a {
      }
      .he-thong{
          background-color: white;
+     }
+     .toi-gian{
+         line-height: 30px;
      }
 
 
