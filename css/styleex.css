@@ -397,7 +397,6 @@ a {
     padding: 7px;
 }
 .product {
-    width: 100%;
     padding: 15px;
 }
 .product img{
@@ -1214,6 +1213,7 @@ a {
      }
      .thoitranga1{
          padding-top: 15px;
+         line-height: 15px;
      }
      .thoitranga img{
          padding-top: 0px;
@@ -1315,6 +1315,7 @@ a {
      .kich-co{
          width: 25px;
          text-align: center;
+         padding: 1px 0px;
      }
      .color-poster{
          color: yellow;
@@ -1420,6 +1421,7 @@ a {
      }
      .thoitranga1{
          padding-top: 15px;
+         line-height: 15px;
      }
      .thoitranga img{
          padding-top: 0px;
@@ -1534,6 +1536,7 @@ a {
     .kich-co{
         width: 25px;
         text-align: center;
+        padding: 1px 0px;
     }
     .vitri2{
         display: grid;
