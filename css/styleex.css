@@ -739,9 +739,11 @@ a {
      color: black;
  }
 .vitri1{
-    display: none;
     padding: 15px;
     font-size: 15px;
+}
+.price-product{
+    color: pink;
 }
 .discout10{
     background-color: pink;
@@ -1139,7 +1141,9 @@ a {
 .khongbietnua5{
     padding-top: 50px;
 }
-/* Tablet */
+.color-poster{
+    color: pink;
+}
 @media (max-width: 390px) {
     body{
         background-color: rgba(255, 0, 0, 0.103);
@@ -1289,6 +1293,55 @@ a {
      }
      .khachangmoia{
          padding : 25px 30px;
+     }
+     .product img{
+         width: 80px;
+     }
+     .poster{
+         width: 100%;
+         height: 200px;
+     }
+     .desforposter{
+         font-size: 12px;
+     }
+     .midex2{
+         display: grid;
+         grid-template-columns: 40% 60%;
+     }
+     .vitri1{
+         font-size: 10px;
+     }
+     .color-poster{
+         color: yellow;
+     }
+     .vitri2{
+         display: grid;
+         grid-template-columns: auto auto ;
+         font-size: 10px;
+     }
+     .price-product{
+         color: blue;
+     }
+     .add-to-cart{
+         font-size: 10px;
+         padding: 5px;
+     }
+     .vitritensp{
+         padding-top: 15px;
+         line-height: 0px;
+     }
+     .discout10{
+         background: yellow;
+         padding: 0px;
+     }
+     .discout10 p{
+         color: black;
+     }
+     #list1 li{
+         margin-left: -30px;
+     }
+     #listColor li{
+         margin-left: -25px;
      }
 
 
@@ -1446,13 +1499,62 @@ a {
      .toi-gian{
          line-height: 30px;
      }
+     .product img{
+        width: 80px;
+    }
+    .poster{
+        width: 100%;
+    }
+    .color-poster{
+        color: yellow;
+    }
+    .midex2{
+        display: grid;
+        grid-template-columns: 40% 60%;
+    }
+    .vitritensp{
+        padding-top: 20px;
+        line-height: 0px;
+    }
+    .discout10{
+        padding: 0px;
+        background-color: yellow;
+    }
+    .discout10 p{
+        color: black;
+    }
+    .vitri1{
+        font-size: 10px;
+    }
+    .vitri2{
+        display: grid;
+        grid-template-columns: auto auto ;
+        font-size: 10px;
+    }
+    .price-product{
+        color: blue;
+    }
+    .add-to-cart{
+        font-size: 10px;
+        padding: 5px;
+    }
+    #list1 li{
+        margin-left: -30px;
+    }
+    #listColor li{
+        margin-left: -25px;
+    }
+
 
 
 }
 /* Desktop */
 @media screen and (min-width: 768px) {
+    .infostar{
+        font-size: 8px;
+    }
     .center-container{
-        height: 650px;
+        height: 700px;
     }
     .noidung1a{
         padding: 0px 30px;
