@@ -1314,6 +1314,7 @@ a {
      }
      .kich-co{
          width: 25px;
+         text-align: center;
      }
      .color-poster{
          color: yellow;
@@ -1473,7 +1474,7 @@ a {
      }
      .noidung1 img{
          width: 370px;
-         padding-left: 7px;
+         padding-left: 30px;
      }
      .noidung2{
          display: grid;
@@ -1484,7 +1485,7 @@ a {
      }
      .noidung2 img{
          width: 370px;
-         padding-left: 7px;
+         padding-left: 30px;
      }
      .support-info{
          display: grid;
@@ -1532,6 +1533,7 @@ a {
     }
     .kich-co{
         width: 25px;
+        text-align: center;
     }
     .vitri2{
         display: grid;
