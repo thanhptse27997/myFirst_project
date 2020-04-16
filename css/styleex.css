@@ -610,8 +610,13 @@ a {
     padding-left: 200px;
 }
 .phong-cach-row-2 {
-    display: flex;
+    display: grid;
+    grid-template-columns: auto auto;
     height: 230px;
+}
+.phongcachrow1_2{
+    display: grid;
+    grid-template-columns: auto auto;
 }
 .phong-cach-col-1 {
     flex-grow: 0.5;
@@ -1287,7 +1292,7 @@ a {
 
 
 }
-@media (max-width : 430px) {
+@media (min-width : 395px) and (max-width : 430px) {
     body{
         background-color: rgba(128, 128, 128, 0.219);
         border: 0px solid black;
@@ -1441,11 +1446,32 @@ a {
 }
 /* Desktop */
 @media screen and (min-width: 768px) {
+    .center-container{
+        height: 650px;
+    }
+    .noidung1a{
+        padding: 0px 30px;
+    }
+    .noidung2a{
+        padding: 5px 20px;
+    }
+    .support-info{
+        padding-top: 0px;
+    }
+    .khachangmoia{
+        padding: 5px 3px 0px 3px;
+    }
     .product {
         width: 33.33%;
     }
     .vitri1 {
         display: block;
+    }
+    .co-nang-nu-tinh{
+        line-height: 30px;
+    }
+    .phong-cach-khoe-khoan{
+        line-height: 30px;
     }
 }
 .bangthongtinne{
@@ -1454,4 +1480,15 @@ a {
 .bangthongtinne li{
     letter-spacing: 2px;
     padding: 5px 30px;
+}
+@media (min-width : 1000px){
+    .noidung1a{
+        padding: 30px;
+    }
+    .noidung2a{
+        padding: 30px;
+    }
+    .khachangmoia{
+        padding: 20px 30px;
+    }
 }
