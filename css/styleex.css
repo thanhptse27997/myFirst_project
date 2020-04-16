@@ -1247,6 +1247,7 @@ a {
      }
      .phong-cach-row-2{
          display: grid;
+         grid-template-columns: auto;
          height: 500px;
      }
      .phongcachrow1_2{
@@ -1396,11 +1397,15 @@ a {
      }
      .phong-cach-row-2{
          display: grid;
+         grid-template-columns: auto;
          height: 500px;
      }
      .phongcachrow1_2{
          display: grid;
          grid-template-columns: auto auto;
+     }
+     .khachangmoia{
+         padding: 30px;
      }
      .center-container{
          height: 1050px;
