@@ -1164,6 +1164,12 @@ a {
 .tab-content p{
     padding-left : 10px;
 }
+.giohangmobile{
+    display: none;
+}
+.voucher{
+    display: none;
+}
 @media (max-width: 390px) {
     body{
         background-color: rgba(255, 0, 0, 0.103);
@@ -1456,6 +1462,60 @@ a {
      .pricembyl{
          color: blue;
      }
+     .infogiohang{
+         display: none;
+     }
+     .table{
+         display: none;
+     }
+     .moreorder{
+         display: none;
+     }
+     .giohangmobile{
+        display: block;
+        font-size: 10px;
+        font-weight: bold;
+        margin: 5px 15px;
+     }
+     .giohangmobile tr td {
+         padding-left: 5px;
+         text-align: center;
+     }
+     .colorproductcart{
+         padding-top: 20px;
+     }
+     .quantities{
+         width: 25px;
+     }
+     .sizediscouta{
+         width: 150px;
+         height: 30px;
+     }
+     .sizediscoutb{
+         font-size: auto;
+         height: auto;
+         padding: 1px 6px;
+
+     }
+     .voucher{
+         margin: 5px 15px;
+         line-height: 30px;
+         display: block;
+     }
+     .voucher p{
+         margin-bottom : 0px;
+         font-size: 10px;
+         font-family: utmavo-bold;
+         text-transform: uppercase;
+         color: grey;
+     }
+     .voucher span{
+         color: blue;
+     }
+     #payforproduct{
+         background:#00a99d;
+         color : white;
+        }
 
 
 }
@@ -1704,6 +1764,10 @@ a {
          display: grid;
          grid-template-columns: auto auto;
      }
+     .buttonorder{
+        font-size: 12px;
+        height: 50px;
+    }
      .kickco1{
          margin-top: 15px;
      }
@@ -1741,6 +1805,61 @@ a {
      .pricembyl{
          color: blue;
      }
+     .infogiohang{
+        display: none;
+    }
+    .table{
+        display: none;
+    }
+    .moreorder{
+        display: none;
+    }
+    .giohangmobile{
+       display: block;
+       font-size: 10px;
+       font-weight: bold;
+       margin: 5px 15px;
+    }
+    .giohangmobile tr td {
+        padding-left: 5px;
+        text-align: center;
+    }
+    .colorproductcart{
+        padding-top: 20px;
+    }
+    .quantities{
+        width: 25px;
+    }
+    .sizediscouta{
+        width: 150px;
+        height: 30px;
+    }
+    .sizediscoutb{
+        font-size: auto;
+        height: auto;
+        padding: 1px 6px;
+
+    }
+    .voucher{
+        margin: 5px 15px;
+        line-height: 30px;
+        display: block;
+    }
+    .voucher p{
+        margin-bottom : 0px;
+        font-size: 10px;
+        font-family: utmavo-bold;
+        text-transform: uppercase;
+        color: grey;
+    }
+    .voucher span{
+        color: blue;
+    }
+    #payforproduct{
+        background:#00a99d;
+        color : white;
+       }
+
 
 
 

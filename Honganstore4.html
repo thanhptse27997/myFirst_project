@@ -42,8 +42,28 @@
         </nav>
 
     </header>
+    <!-- menu mobile-->
+    <div class="dropdown">
+        <i class="fa fa-home"></i><a class="dropbtn" onclick="isActive()">Home</a></i>
+
+        <div id="myDropdown" class="dropdown-content">
+            <a href="#">Trang chủ</a>
+            <a href="#">Tạp chí</a>
+            <a id="forMobile" href="#">Theo dõi đơn hàng</a>
+            <a href="#">Đăng nhập</a>
+            <a href="#">Đăng kí</a>
+            <a href="#">Trợ giúp</a>
+            <a href="#"><img src="img/group-1.svg"></a>
+            <a href="#">f</a>
+            <a href="#" class="cart">
+                <i class="fas fa-shopping-cart"></i>
+                <p>Gio hang chua co san pham</p>
+            </a>
+        </div>
+
+    </div>
     <nav class="navex">
-        <h2> <a href="#" class="honganpos"> honganstore</a></h2>
+        <a href="#" class="honganpos"> honganstore</a>
         <ul class="navex1">
             <li><a href="#"><i class="fas fa-chevron-circle-right"></i>ÁO</a>
                 <ul>
@@ -71,7 +91,7 @@
                     <li><a href="#">short thun</a></li>
                 </ul>
             </li>
-            <li><a href="#"><i class="fas fa-chevron-circle-right"></i>QUẦN JEAN</a>
+            <li><a href="#"><i class="fas fa-chevron-circle-right"></i>JEAN</a>
                 <ul>
                     <li><a href="#">jean kaki</a></li>
                     <li><a href="#">jean thun</a></li>
@@ -155,9 +175,7 @@
             </div>
             <div class="vitritensp1">
                 <p class="tensp">Đầm SP911</p>
-                <p>
-                    <scan style="color: pink;">349.000</scan>
-                </p>
+                <p class="pricembyl"> 349.000đ</p>
             </div>
         </div>
         <div class="productmaybeyoulike">
@@ -167,9 +185,7 @@
             </div>
             <div class="vitritensp1">
                 <p class="tensp">Đầm SP911</p>
-                <p>
-                    <scan style="color: pink;">349.000</scan>
-                </p>
+                <p class="pricembyl"> 349.000đ</p>
             </div>
         </div>
         <div class="productmaybeyoulike">
@@ -179,9 +195,7 @@
             </div>
             <div class="vitritensp1">
                 <p class="tensp">Đầm SP911</p>
-                <p>
-                    <scan style="color: pink;">349.000</scan>
-                </p>
+                <p class="pricembyl"> 349.000đ</p>
             </div>
         </div>
         <div class="productmaybeyoulike">
@@ -191,9 +205,7 @@
             </div>
             <div class="vitritensp1">
                 <p class="tensp">Đầm SP911</p>
-                <p>
-                    <scan style="color: pink;">349.000</scan>
-                </p>
+                <p class="pricembyl"> 349.000đ</p>
             </div>
         </div>
     </section>
@@ -363,6 +375,53 @@
                     class="fas fa-chevron-right"></i> </button>
         </div>
     </section>
+    <!-- giỏ hàng mobile-->
+    <table class="giohangmobile">
+        <thead>
+        <tbody>
+            <tr>
+                <td>Đầm Ôm Hở Vai </td>
+                <td>KÍCH CỠ</td>
+                <td>MÀU SẮC</td>
+                <td>SỐ LƯỢNG</td>
+                <td>GIÁ</td>
+            </tr>
+            <tr>
+                <td>
+                    <img src="img/product-item.png">
+                </td>
+
+                <td>
+                    S
+                </td>
+                <td>
+                    <p class="colorproductcart">Đen</p>
+                </td>
+                <td>
+                    <input class="quantities" type="number" name="soluong" min="1" value="1">
+                </td>
+                <td>
+                    1.150.000 VNĐ
+                </td>
+            </tr>
+
+        </tbody>
+        </thead>
+    </table>
+    <div class="voucher">
+        <p>Nhập mã giảm giá</p>
+        <form>
+            <input type="text" class="sizediscouta" name="magiamgia">
+            <input type="submit" class="sizediscoutb" value="Áp dụng">
+        </form>
+        <p>Phí vận chuyển</p>
+        <span>miễn phí</span>
+        <p>Tổng cộng</p>
+        <span>1.150.000 VNĐ</span>
+        <button id="payforproduct">Thanh toán</button>
+
+
+    </div>
     <section class="support-info ">
         <div class="he-thong column">
             <div class="hethong1">
@@ -454,6 +513,8 @@
         </div>
     </footer>
 </body>
+
+<script src="js/menuMobile.js"></script>
 
 
 </html>
