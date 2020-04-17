@@ -29,6 +29,7 @@
         <nav class="top-nav">
             <a href="#">Trang chủ</a>
             <a href="#">Tạp chí</a>
+            <a id="forMobile" href="#">Theo dõi đơn hàng</a>
             <a href="#">Đăng nhập</a>
             <a href="#">Đăng kí</a>
             <a href="#">Trợ giúp</a>
@@ -40,6 +41,27 @@
             </a>
         </nav>
     </header>
+    <!-- nav mobile-->
+        <!-- nav mobile -->
+        <div class="dropdown">
+            <i class="fa fa-home"></i><a class="dropbtn" onclick="isActive()">Home</a></i>
+            
+            <div id="myDropdown" class="dropdown-content">
+                <a href="#">Trang chủ</a>
+                <a href="#">Tạp chí</a>
+                <a id="forMobile" href="#">Theo dõi đơn hàng</a>
+                <a href="#">Đăng nhập</a>
+                <a href="#">Đăng kí</a>
+                <a href="#">Trợ giúp</a>
+                <a href="#"><img src="img/group-1.svg"></a>
+                <a href="#">f</a>
+                <a href="#" class="cart">
+                    <i class="fas fa-shopping-cart"></i>
+                    <p>Gio hang chua co san pham</p>
+                </a>
+            </div>
+    
+        </div>
     <nav class="navex">
         <a href="#" class="honganpos"> honganstore</a>
         <ul class="navex1">
@@ -223,15 +245,18 @@
             </div>
             <p class="weareone">Trang Phục Nữ <i class="fas fa-caret-right"></i> </p>
             <p class="weareone">Kích Cỡ <i class="fas fa-sort-down"></i> </p>
-            <form>
+            <form class="sizeAndPrice">
                 <button type="button" class="kich-co">XS</button>
                 <button type="button" class="kich-co">S</button>
                 <button type="button" class="kich-co">M</button>
                 <button type="button" class="kich-co">L</button>
-                <p class="weareone"> Giá <i class="fas fa-sort-down"></i> </p>
-                <p class="quantrong1">109.000</p>
-                <input type="range" name="gia" value="4020000">
-                <p class="quantrong1">4.020.000</p>
+                <div>
+                    <p class="weareone"> Giá <i class="fas fa-sort-down"></i> </p>
+                    <p class="quantrong1">109.000</p>
+                    <input type="range" name="gia" value="4020000">
+                    <p class="quantrong1">4.020.000</p>
+                </div>
+
 
             </form>
             <p class="quantrong1"> 105 Sản Phẩm</p>
@@ -527,5 +552,6 @@
     </footer>
 </body>
 
+<script src="js/menuMobile.js"></script>
 
 </html>
