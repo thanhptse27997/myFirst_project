@@ -42,8 +42,28 @@
         </nav>
 
     </header>
+    <!-- nav mobile -->
+    <div class="dropdown">
+        <i class="fa fa-home"></i><a class="dropbtn" onclick="isActive()">Home</a></i>
+
+        <div id="myDropdown" class="dropdown-content">
+            <a href="#">Trang chủ</a>
+            <a href="#">Tạp chí</a>
+            <a id="forMobile" href="#">Theo dõi đơn hàng</a>
+            <a href="#">Đăng nhập</a>
+            <a href="#">Đăng kí</a>
+            <a href="#">Trợ giúp</a>
+            <a href="#"><img src="img/group-1.svg"></a>
+            <a href="#">f</a>
+            <a href="#" class="cart">
+                <i class="fas fa-shopping-cart"></i>
+                <p>Gio hang chua co san pham</p>
+            </a>
+        </div>
+
+    </div>
     <nav class="navex">
-        <h2> <a href="#" class="honganpos"> honganstore</a></h2>
+        <a href="#" class="honganpos"> honganstore</a>
         <ul class="navex1">
             <li><a href="#"><i class="fas fa-chevron-circle-right"></i>ÁO</a>
                 <ul>
@@ -71,7 +91,7 @@
                     <li><a href="#">short thun</a></li>
                 </ul>
             </li>
-            <li><a href="#"><i class="fas fa-chevron-circle-right"></i>QUẦN JEAN</a>
+            <li><a href="#"><i class="fas fa-chevron-circle-right"></i>JEAN</a>
                 <ul>
                     <li><a href="#">jean kaki</a></li>
                     <li><a href="#">jean thun</a></li>
@@ -132,7 +152,7 @@
             </div>
         </div>
         <div class="product-detail-colb">
-            <div>
+            <div class="big-img">
                 <img src="img/main-img.jpg">
             </div>
 
@@ -144,33 +164,42 @@
             </div>
 
         </div>
+
+
         <div class="product-detail-colc sub-info">
             <div class="mausac-kichco">
-                <div class="kickco1">
-                    <p class="quantrong2 chuinhoa">màu sắc</p>
-                    <button type="button" class="size color1"></button>
-                    <button type="button" class="size color2"></button>
+                <div class="kichco-button">
+                    <div class="kickco1">
+                        <p class="quantrong2 chuinhoa">màu sắc</p>
+                        <button type="button" class="size color1"></button>
+                        <button type="button" class="size color2"></button>
+                    </div>
+                    <div class="buttonhover">
+                        <p class="quantrong2 chuinhoa">Kích cỡ</p>
+                        <button type="button" class="buttonsize">XS</button>
+                        <button type="button" class="buttonsize">S</button>
+                        <button type="button" class="buttonsize">M</button>
+                        <button type="button" class="buttonsize">L</button>
+                    </div>
                 </div>
-                <div class="buttonhover">
-                    <p class="quantrong2 chuinhoa">Kích cỡ</p>
-                    <button type="button" class="buttonsize">XS</button>
-                    <button type="button" class="buttonsize">S</button>
-                    <button type="button" class="buttonsize">M</button>
-                    <button type="button" class="buttonsize">L</button>
+
+
+                <div>
+                    <div class="infohang quantrong2">
+                        <p>
+                            <scan style="color: red;">Có sẵn tất cả kích cỡ. Sắp hết hàng</scan>
+                        </p>
+                    </div>
+                    <div class="orderhang">
+                        <button type="button" class="buttonorder quantrong2">
+                            <p>Cho vào giỏ hàng</p>
+                        </button>
+                    </div>
+                    <div>
+                        <p class="quantrong2 khoangcachdenhin">CHIA SẺ</p>
+                        <a href="#" class="quantrong"><i class="fab fa-facebook-f"></i></a>
+                    </div>
                 </div>
-                <br>
-                <div class="infohang quantrong2">
-                    <p>
-                        <scan style="color: red;">Có sẵn tất cả kích cỡ. Sắp hết hàng</scan>
-                    </p>
-                </div>
-                <div class="orderhang">
-                    <button type="button" class="buttonorder quantrong2">
-                        <p>Cho vào giỏ hàng</p>
-                    </button>
-                </div>
-                <p class="quantrong2 khoangcachdenhin">CHIA SẺ</p>
-                <a href="#" class="quantrong"><i class="fab fa-facebook-f"></i></a>
             </div>
             <div class="thacmac">
                 <ul class="quantrong2">
@@ -185,83 +214,33 @@
         </div>
     </section>
     <div class="bangthongtinne">
-        <ul class="nav nav-tabs">
-            <li class="active"><a data-toggle="tab" href="#home">Home</a></li>
-            <li><a data-toggle="tab" href="#menu1">Menu 1</a></li>
-            <li><a data-toggle="tab" href="#menu2">Menu 2</a></li>
-            <li><a data-toggle="tab" href="#menu3">Menu 3</a></li>
-          </ul>
-        
-          <div class="tab-content">
+        <ul class="nav nav-tabs nav-info-menu">
+            <li class="active"><a data-toggle="tab" href="#home">Chi Tiết</a></li>
+            <li><a data-toggle="tab" href="#menu1">Chất Liệu</a></li>
+            <li><a data-toggle="tab" href="#menu2">Hướng Dẫn</a></li>
+            <li><a data-toggle="tab" href="#menu3">Xuất Xứ</a></li>
+        </ul>
+
+        <div class="tab-content">
             <div id="home" class="tab-pane fade in active">
-              <h3>HOME</h3>
-              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                <p>SKU ( simple ) : DE186AA27MAYVN</p>
             </div>
             <div id="menu1" class="tab-pane fade">
-              <h3>Menu 1</h3>
-              <p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                <p>Polyester</p>
             </div>
             <div id="menu2" class="tab-pane fade">
-              <h3>Menu 2</h3>
-              <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam.</p>
+                <p>- Lật mặt trái SP khi giặt</p>
+                <p>- Nên giặt tay</p>
+                <p>- Không sử dụng thuốc tẩy</p>
+                <p>- Không nên phơi ở trời nắng gắt</p>
             </div>
             <div id="menu3" class="tab-pane fade">
-              <h3>Menu 3</h3>
-              <p>Eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.</p>
+                <p>Việt Nam</p>
+                
             </div>
-          </div>
+        </div>
     </div>
 
-
-    <!-- <nav class="thongtindathang">
-        <ul>
-            <li><button type="button"> Chi Tiết </button>
-                <ul class="desforhangorder1">
-                    <li class="hangorder1a">
-                        <div class="order1a">
-                            <p> SKU ( SIMPLE ) </p>
-                            <p> Hướng Dẫn Sử Dụng </p>
-                        </div>
-                        <div class="order1aa brother">
-                            <p> DE186AA27MAYVN</p>
-                            <p> - Lột mặt trái SP khi giặt , phơi <br> - Nên giặt tay <br> - Không sử dụng thuốc tẩy
-                            </p>
-                        </div>
-                    </li>
-                    <li class="hangorder1b">
-                        <div class="order1b">
-                            <p>Thành Phần Chất Liệu</p>
-                            <p>Xuất Xứ</p>
-                            <p>Sản Phẩm Không Giảm Giá</p>
-                        </div>
-                        <div class="order1bb brother">
-                            <p> Polyester </p>
-                            <p> Việt Nam </p>
-                            <p> SP này không được áp dụng với voucher hoặc các khuyến mãi khác </p>
-                        </div>
-
-                    </li>
-                </ul>
-            </li>
-
-            <li> <button type="button"> Chi Tiết Kích Cỡ </button>
-            </li>
-
-            <li>
-                <button type="button"> Nhận Xét </button>
-            </li>
-
-            <li>
-                <button type="button"> Chính Sách Hoàn Trả </button>
-            </li>
-
-            <li>
-                <button type="button"> Thông Tin Vận Chuyển </button>
-            </li>
-
-        </ul>
-    </nav>
-     -->
     <p class="mbyl">CÓ THỂ BẠN SẼ THÍCH</p>
     <section class="maybeyoulike">
         <div class="productmaybeyoulike">
@@ -270,10 +249,10 @@
                 <button class="add-to-cart">Add to cart <i class="fas fa-arrow-right"></i></button>
             </div>
             <div class="vitritensp1">
-                <p class="tensp">Đầm SP911</p>
-                <p>
-                    <scan style="color: pink;">349.000</scan>
-                </p>
+                <p class="tensp-page3">Đầm SP911</p>
+                <p class="pricembyl"> 349.000đ</p>
+                   
+                
             </div>
         </div>
         <div class="productmaybeyoulike">
@@ -282,11 +261,10 @@
                 <button class="add-to-cart">Add to cart <i class="fas fa-arrow-right"></i></button>
             </div>
             <div class="vitritensp1">
-                <p class="tensp">Đầm SP911</p>
-                <p>
-                    <scan style="color: pink;">349.000</scan>
-                </p>
+                <p class="tensp-page3">Đầm SP911</p>
+                <p class="pricembyl"> 349.000đ</p>
             </div>
+            
         </div>
         <div class="productmaybeyoulike">
             <div class="frame">
@@ -294,10 +272,8 @@
                 <button class="add-to-cart">Add to cart <i class="fas fa-arrow-right"></i></button>
             </div>
             <div class="vitritensp1">
-                <p class="tensp">Đầm SP911</p>
-                <p>
-                    <scan style="color: pink;">349.000</scan>
-                </p>
+                <p class="tensp-page3">Đầm SP911</p>
+                <p class="pricembyl"> 349.000đ</p>
             </div>
         </div>
         <div class="productmaybeyoulike">
@@ -306,10 +282,8 @@
                 <button class="add-to-cart">Add to cart <i class="fas fa-arrow-right"></i></button>
             </div>
             <div class="vitritensp1">
-                <p class="tensp">Đầm SP911</p>
-                <p>
-                    <scan style="color: pink;">349.000</scan>
-                </p>
+                <p class="tensp-page3">Đầm SP911</p>
+                <p class="pricembyl"> 349.000đ</p>
             </div>
         </div>
     </section>
@@ -404,5 +378,6 @@
         </div>
     </footer>
 </body>
+<script src="js/menuMobile.js"></script>
 
 </html>

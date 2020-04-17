@@ -1154,6 +1154,16 @@ a {
      padding-top: 10px;
      line-height: 30px;
  }
+ .bangthongtinne{
+    height: 180px;
+    padding-left: 10px;
+}
+.bangthongtinne li{
+    padding: 5px 10px;
+}
+.tab-content p{
+    padding-left : 10px;
+}
 @media (max-width: 390px) {
     body{
         background-color: rgba(255, 0, 0, 0.103);
@@ -1202,7 +1212,6 @@ a {
        display: grid;
        grid-template-rows: 80px 120px;
        height: 200px;
-      
     }
     .navex li ul a{
         font-size: 15px;
@@ -1388,7 +1397,60 @@ a {
      }
      .sizeAndPrice div{
         line-height: 15px;
-        
+     }
+     .product-detail{
+        display: block;
+        height: auto;
+     }
+     .product-detail-cola{
+         padding: 0px 25px;
+     }
+
+     .product-detail-colc{
+         height: auto;
+         font-size: 10px;
+         margin-left: 35px;
+     }
+     .kickco-button{
+         display: grid;
+         grid-template-columns: auto auto;
+     }
+     .kickco1{
+         margin-top: 15px;
+     }
+     .thacmac{
+         height: 150px;
+     }
+     .bangthongtinne{
+         font-size: 10px;
+     }
+     .nav-info-menu{
+         display: grid;
+         grid-template-columns: auto auto auto auto;
+     }
+     .bangthongtinne{
+         padding: 15px;
+         height: 185px;
+     }
+     .bangthongtinne li{
+         padding: 5px 10px;
+     }
+     .tab-content{
+         padding-left: 10px;
+     }
+     .mbyl{
+         padding-top: 0px;
+     }
+     .maybeyoulike img{
+         width: 80px;
+     }
+     .vitritensp1{
+         padding-top: 20px;
+         font-size: 10px;
+         font-weight: bold;
+     }
+     .pricembyl{
+         color: blue;
      }
 
 
@@ -1406,7 +1468,7 @@ a {
         position: relative;
         display: inline-block;
       }
-      .dropdown-content {
+    .dropdown-content {
         display: none;
         position: absolute;
         background-color: #f1f1f1;
@@ -1416,7 +1478,7 @@ a {
         z-index: 2;
       }
       
-      .dropdown-content >a{
+    .dropdown-content >a{
         color: black;
         padding: 12px 16px;
         text-decoration: none;
@@ -1425,7 +1487,7 @@ a {
       
       .dropdown a:hover {background-color: #ddd;}
       
-      .show {display: block;}
+    .show {display: block;}
     .honganpos{
         margin: 15px auto ;
     }
@@ -1433,7 +1495,6 @@ a {
        display: grid;
        grid-template-rows: 80px 120px;
        height: 200px;
-      
     }
     .navex li ul a{
         font-size: 15px;
@@ -1622,6 +1683,61 @@ a {
     .imgpage-2{
         padding-left: 15px;
     }
+    .product-detail{
+        display: block;
+        height: auto;
+     }
+     .product-detail-cola{
+         padding: 0px 25px;
+     }
+
+     .product-detail-colc{
+         height: auto;
+         font-size: 10px;
+         margin-left: 35px;
+     }
+     .kickco-button{
+         display: grid;
+         grid-template-columns: auto auto;
+     }
+     .kickco1{
+         margin-top: 15px;
+     }
+     .thacmac{
+         height: 150px;
+     }
+     .bangthongtinne{
+         font-size: 10px;
+     }
+     .nav-info-menu{
+         display: grid;
+         grid-template-columns: auto auto auto auto;
+     }
+     .bangthongtinne{
+         padding: 15px;
+         height: 185px;
+     }
+     .bangthongtinne li{
+         padding: 5px 10px;
+     }
+     .tab-content{
+         padding-left: 10px;
+     }
+     .mbyl{
+         padding-top: 0px;
+     }
+     .maybeyoulike img{
+         width: 80px;
+     }
+     .vitritensp1{
+         padding-top: 20px;
+         font-size: 10px;
+         font-weight: bold;
+     }
+     .pricembyl{
+         color: blue;
+     }
+
 
 
 
@@ -1658,13 +1774,32 @@ a {
     .phong-cach-khoe-khoan{
         line-height: 30px;
     }
-}
-.bangthongtinne{
-    padding: 15px;
-}
-.bangthongtinne li{
-    letter-spacing: 2px;
-    padding: 5px 30px;
+    .product-detail-cola{
+        padding-left: 10px;
+        padding-right: 0px;
+    }
+    .text3{
+        font-size: 10px;
+    }
+    .big-img img{
+        width: 250px;
+    }
+    .colb img{
+        width: 60px;
+    }
+    .colb{
+        bottom: 20%;
+    }
+    .bangthongtinne{
+        height: 180px;
+        padding-left: 10px;
+    }
+    .productmaybeyoulike img{
+        width : 100%;
+    }
+    .pricembyl{
+        color: pink;
+    }
 }
 @media (min-width : 1000px){
     .noidung1a{
