@@ -1287,7 +1287,7 @@ a {
          display: grid;
      }
      .phong-cach-khoe-khoan{
-         line-height: 35px;
+         line-height: 40px;
      }
      .co-nang-nu-tinh{
          line-height: 30px;
@@ -1525,6 +1525,12 @@ a {
     .table-cart{
         border: 1px solid grey;
     }
+    .giohang-normal{
+        display: none;
+    }
+    .voucher-tablet{
+        display: none;
+    }
 
 
 }
@@ -1631,7 +1637,7 @@ a {
          display: grid;
      }
      .phong-cach-khoe-khoan{
-         line-height: 35px;
+         line-height: 40px;
      }
      .column-1{
          float: none;
@@ -1871,6 +1877,12 @@ a {
     .table-cart{
         border: 1px solid grey;
     }
+    .giohang-normal{
+        display: none;
+    }
+    .voucher-tablet{
+        display: none;
+    }
 
 
 
@@ -2019,6 +2031,12 @@ a {
         font-weight: bold;
         padding-left: 15px;
         height: 250px;
+    }
+    .giohangmobile{
+        display: none;
+    }
+    .voucher{
+        display: none;
     }
 
 }
