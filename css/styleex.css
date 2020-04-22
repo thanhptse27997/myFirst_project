@@ -1170,6 +1170,12 @@ a {
 .voucher{
     display: none;
 }
+.giohang-normal{
+    display: none;
+}
+.voucher-tablet{
+    display: none;
+}
 @media (max-width: 390px) {
     body{
         background-color: rgba(255, 0, 0, 0.103);
@@ -1281,7 +1287,7 @@ a {
          display: grid;
      }
      .phong-cach-khoe-khoan{
-         line-height: 25px;
+         line-height: 35px;
      }
      .co-nang-nu-tinh{
          line-height: 30px;
@@ -1515,7 +1521,10 @@ a {
      #payforproduct{
          background:#00a99d;
          color : white;
-        }
+    }
+    .table-cart{
+        border: 1px solid grey;
+    }
 
 
 }
@@ -1622,7 +1631,7 @@ a {
          display: grid;
      }
      .phong-cach-khoe-khoan{
-         line-height: 25px;
+         line-height: 35px;
      }
      .column-1{
          float: none;
@@ -1858,7 +1867,10 @@ a {
     #payforproduct{
         background:#00a99d;
         color : white;
-       }
+    }
+    .table-cart{
+        border: 1px solid grey;
+    }
 
 
 
@@ -1866,12 +1878,29 @@ a {
 
 }
 /* Desktop */
-@media (min-width: 768px) and (max-width : 950px) {
-    .infostar{
-        font-size: 8px;
+@media (min-width: 750px) and (max-width : 900px) {
+    body{
+        width: 100%;
+    }
+    .dreamcatcher-container img{
+        width: 220px;
+    }
+    .thoitranga img{
+        width: 220px;
+    }
+    .thoitranga1{
+        line-height: normal;
+        padding-top: 0px;
+    }
+    .center-container img{
+        width: 370px;
+        margin: 20px 10px;
     }
     .center-container{
-        height: 700px;
+        height: 600px;
+    }
+    .infostar{
+        font-size: 8px;
     }
     .noidung1a{
         padding: 0px 30px;
@@ -1919,10 +1948,79 @@ a {
     }
     .productmaybeyoulike img{
         width : 100%;
+        padding-left: 10px;
+        overflow: auto;
     }
     .pricembyl{
         color: pink;
     }
+    .infoa{
+        margin-left: 315px;
+    }
+    .giohang-normal{
+        display: block;
+        margin: 15px 5px;
+    }
+    .giohang-normal tr td{
+        padding: 0px 20px;
+        height: 120px;
+        
+    }
+    .colorproductcart{
+        font-weight: bold;
+        padding-top: 20px;
+    }
+    .info-cart{
+        font-size: 15px;
+        font-family: utmavo-bold;
+        color: grey;
+        text-align: center;
+    }
+    .size-product{
+        font-weight: bold;
+    }
+    .quantities-product input{
+        width: 55px;
+    }
+    .giohang-normal .thong-tin-sp{
+        padding: 0px;
+    }
+    .time-ship{
+        font-size: 10px;
+        font-weight: bold;
+    }
+    .name-product{
+        font-family: utmavo-bold;
+    }
+    .price-product-cart{
+        font-size: 12px;
+        font-weight: bold;
+    }
+    .thesamepos{
+        text-align: center;
+    }
+    .table-product-cart{
+        border: 1px solid rgba(128, 128, 128, 0.507);
+    }
+    .table-product-cart td{
+        padding: 10px 0px;
+    }
+    .infogiohang{
+        display: none;
+    }
+    .table{
+        display: none;
+    }
+    .moreorder{
+        display: none;
+    }
+    .voucher-tablet{
+        display: block;
+        font-weight: bold;
+        padding-left: 15px;
+        height: 250px;
+    }
+
 }
 @media (min-width : 1000px){
     .noidung1a{

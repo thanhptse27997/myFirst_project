@@ -375,7 +375,7 @@
                     class="fas fa-chevron-right"></i> </button>
         </div>
     </section>
-    <!-- giỏ hàng mobile-->
+        <!-- giỏ hàng mobile-->
     <table class="giohangmobile">
         <thead>
         <tbody>
@@ -385,8 +385,9 @@
                 <td>MÀU SẮC</td>
                 <td>SỐ LƯỢNG</td>
                 <td>GIÁ</td>
+                <td></td>
             </tr>
-            <tr>
+            <tr class="table-cart" >
                 <td>
                     <img src="img/product-item.png">
                 </td>
@@ -403,6 +404,144 @@
                 <td>
                     1.150.000 VNĐ
                 </td>
+                <td><button>x</button></td>
+            </tr>
+
+        </tbody>
+        </thead>
+    </table>
+        <!-- giỏ hàng tablet-->
+    <table class="giohang-normal">
+        <thead>
+        <tbody>
+            <tr class="info-cart">
+                <td></td>
+                <td id="name-pos-cart"></td>
+                <td>KÍCH CỠ</td>
+                <td>MÀU SẮC</td>    
+                <td>SỐ LƯỢNG</td>
+                <td>GIÁ</td>
+                <td></td>
+            </tr>
+            <tr class="table-product-cart">
+                <td>
+                    <img src="img/product-item.png">
+                </td>
+                <td class="thong-tin-sp">
+                    <p class="name-product">
+                        Đầm Ôm Hở Vai
+                    </p>
+                  
+                    <div class="time-ship">
+                            Giao hàng trong 3-5 ngày làm việc
+                    </div>
+             
+
+                </td>
+
+                <td class="size-product thesamepos">
+                    S
+                </td>
+                <td>
+                    <p class="colorproductcart thesamepos">Đen</p>
+                </td>
+                <td class="quantities-product thesamepos">
+                    <input class="quantities" type="number" name="soluong" min="1" value="1">
+                </td>
+                <td class="price-product-cart thesamepos">
+                    1.150.000 VNĐ
+                </td>
+                <td><button>x</button></td>
+            </tr>
+            <tr  class="table-product-cart">
+                <td>
+                    <img src="img/product-item.png">
+                </td>
+                <td class="thong-tin-sp">
+                    <p class="name-product">
+                        Đầm Ôm Hở Vai
+                    </p>
+                  
+                    <div class="time-ship">
+                        Giao hàng trong 3-5 ngày làm việc
+                </div>
+             
+
+                </td>
+
+                <td class="size-product thesamepos">
+                    S
+                </td>
+                <td>
+                    <p class="colorproductcart thesamepos">Đen</p>
+                </td>
+                <td class="quantities-product thesamepos">
+                    <input class="quantities" type="number" name="soluong" min="1" value="1">
+                </td>
+                <td class="price-product-cart thesamepos">
+                    1.150.000 VNĐ
+                </td>
+                <td><button>x</button></td>
+            </tr>
+            <tr  class="table-product-cart">
+                <td>
+                    <img src="img/product-item.png">
+                </td>
+                <td class="thong-tin-sp">
+                    <p class="name-product">
+                        Đầm Ôm Hở Vai
+                    </p>
+                  
+                    <div class="time-ship">
+                        Giao hàng trong 3-5 ngày làm việc
+                </div>
+             
+
+                </td>
+
+                <td class="size-product thesamepos">
+                    S
+                </td>
+                <td>
+                    <p class="colorproductcart thesamepos">Đen</p>
+                </td>
+                <td class="quantities-product thesamepos">
+                    <input class="quantities" type="number" name="soluong" min="1" value="1">
+                </td>
+                <td class="price-product-cart thesamepos">
+                    1.150.000 VNĐ
+                </td>
+                <td><button>x</button></td>
+            </tr>
+            <tr  class="table-product-cart">
+                <td>
+                    <img src="img/product-item.png">
+                </td>
+                <td class="thong-tin-sp">
+                    <p class="name-product">
+                        Đầm Ôm Hở Vai
+                    </p>
+                  
+                    <div class="time-ship">
+                        Giao hàng trong 3-5 ngày làm việc
+                </div>
+             
+
+                </td>
+
+                <td class="size-product thesamepos">
+                    S
+                </td>
+                <td>
+                    <p class="colorproductcart thesamepos">Đen</p>
+                </td>
+                <td class="quantities-product thesamepos">
+                    <input class="quantities" type="number" name="soluong" min="1" value="1">
+                </td>
+                <td class="price-product-cart thesamepos">
+                    1.150.000 VNĐ
+                </td>
+                <td><button>x</button></td>
             </tr>
 
         </tbody>
@@ -418,6 +557,20 @@
         <span>miễn phí</span>
         <p>Tổng cộng</p>
         <span>1.150.000 VNĐ</span>
+        <button id="payforproduct">Thanh toán</button>
+
+
+    </div>
+    <div class="voucher-tablet">
+        <p>Nhập mã giảm giá</p>
+        <form>
+            <input type="text" class="sizediscouta" name="magiamgia">
+            <input type="submit" class="sizediscoutb" value="Áp dụng">
+        </form>
+        <p>Phí vận chuyển</p>
+        <span>miễn phí</span>
+        <p>Tổng cộng</p>
+        <span>4.600.000 VNĐ</span>
         <button id="payforproduct">Thanh toán</button>
 
 
